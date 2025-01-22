@@ -1,0 +1,20 @@
+.video-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  .video-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .video-card {
+      margin: 0.5rem;
+    }
+  }
+  
